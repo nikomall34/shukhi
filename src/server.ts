@@ -56,6 +56,10 @@ export class Server {
         });
       }
 
+      socket.on('chat message', msg => {
+        this.io.emit('chat message', msg);
+      });
+
       socket.on("call-user", (data: any) => {
         socket.to(data.to).emit("call-made", {
           offer: data.offer,

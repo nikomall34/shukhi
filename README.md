@@ -9,4 +9,6 @@ https://github.com/amkurian/simple-chat
 
 https://github.com/Miczeq22/simple-chat-app
 
+https://github.com/socketio/chat-example
+
 
